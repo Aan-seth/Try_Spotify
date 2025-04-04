@@ -1,0 +1,35 @@
+{
+    "title": "All Mood Songs",
+    "description" : "Songs for you",
+    "cover": "cover.jpg",
+    "songs": [
+        {
+          "title": "Amplifier",
+          "file": "Amplifier.mp3"
+        },
+        {
+          "title": "Dilbara Dhoom",
+          "file": "Dilbara Dhoom.mp3"
+        },
+        {
+          "title": "Kya Crook",
+          "file": "Kya Crook.mp3"
+        },
+        {
+            "title": "Kya Mujhe Pyar Hai",
+            "file": "Kya Mujhe Pyar Hai.mp3"
+        },
+        {
+            "title": "Masakali",
+            "file": "Masakali.mp3"
+        },
+        {
+            "title": "Mix",
+            "file": "Mix.mp3"
+        },
+        {
+            "title": "Switty",
+            "file": "Switty.mp3"
+        }
+      ]
+}

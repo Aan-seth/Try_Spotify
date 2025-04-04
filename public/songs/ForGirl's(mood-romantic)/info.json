@@ -1,0 +1,35 @@
+{
+    "title": " Her Love Notes ",
+    "description" : "Songs for you",
+    "cover": "cover.jpg",
+    "songs": [
+        {
+          "title": "Zara Zara",
+          "file": "Zara Zara.mp3"
+        },
+        {
+          "title": "Zara Zara Touch Me",
+          "file": "Zara Zara Touch Me.mp3"
+        },
+        {
+          "title": "Gale Lag Ja",
+          "file": "Gale Lag Ja.mp3"
+        },
+        {
+            "title": "Aa Zara",
+            "file": "Aa Zara.mp3"
+        },
+        {
+            "title": "Jhoom Jhoom Ta Ja",
+            "file": "Jhoom Jhoom Ta Ja.mp3"
+        },
+        {
+            "title": "Khwab Dekhe",
+            "file": "Khwab Dekhe.mp3"
+        },
+        {
+            "title": "Sheila Ki Jawani",
+            "file": "Sheila Ki Jawani.mp3"
+        }
+      ]
+}

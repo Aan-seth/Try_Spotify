@@ -1,0 +1,55 @@
+{
+    "title": "Romantic Songs",
+    "description" : "Songs for you",
+    "cover": "cover.jpg",
+    "songs": [
+        {
+          "title": "Mera Pehla Phela Pyaar",
+          "file": "Mera Pehla Pehla Pyaar.mp3"
+        },
+        {
+          "title": "Dekha Hai Teri Aankhon Ko",
+          "file": "Dekha Hai Teri Aankhon Ko.mp3"
+        },
+        {
+          "title": "Khuda Bhi",
+          "file": "Khuda Bhi.mp3"
+        },
+        {
+            "title": "Labon Ko",
+            "file": "Labon Ko.mp3"
+        },
+        {
+            "title": "Mareez E Ishq Zidd",
+            "file": "Mareez E Ishq Zidd.mp3"
+        },
+        {
+            "title": "Pehli Nazar Mein Race",
+            "file": "Pehli Nazar Mein Race.mp3"
+        },
+        {
+            "title": "Phir Mohabbat Murder",
+            "file": "Phir Mohabbat Murder.mp3"
+        },
+        {
+            "title": "Toota Jo Kabhi Tara",
+            "file": "Toota Jo Kabhi Tara.mp3"
+        },
+        {
+            "title": "Tu Zaroori",
+            "file": "Tu Zaroori.mp3"
+        },
+        {
+            "title": "Tumhe Jo Maine Dekha",
+            "file": "Tumhe Jo Maine Dekha.mp3"
+        },
+        {
+            "title": "You May Be",
+            "file": "You May Be.mp3"
+        },
+        {
+            "title": "Zindagi Se Raaz",
+            "file": "Zindagi Se Raaz.mp3"
+        }
+      ]
+}
