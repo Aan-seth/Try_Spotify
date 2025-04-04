@@ -7,7 +7,7 @@ import nextIcon from "/img/next.svg";
 import previousIcon from "/img/previous.svg";
 import "../style.css";
 
-const Playbar = ({ songs, currentSong, setCurrentSong }) => {
+const Playbar = ({ songs, currentSong, setCurrentSong, autoPlayTrigger, setAutoPlayTrigger }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(0.5);
   const [previousVolume, setPreviousVolume] = useState(0.5);
@@ -31,8 +31,10 @@ const Playbar = ({ songs, currentSong, setCurrentSong }) => {
     audio.addEventListener("ended", playNextSong);
     audio.volume = volume;
 
-    if (isPlaying) {
+    if (isPlaying || autoPlayTrigger) {
       audio.play();
+      setIsPlaying(true);
+      setAutoPlayTrigger(false);
     }
 
     return () => {
@@ -41,7 +43,7 @@ const Playbar = ({ songs, currentSong, setCurrentSong }) => {
       audio.removeEventListener("loadedmetadata", updateDuration);
       audio.removeEventListener("ended", playNextSong);
     };
-  }, [currentSong]);
+  }, [currentSong, autoPlayTrigger]);
 
   const togglePlayPause = () => {
     const audio = audioRef.current;

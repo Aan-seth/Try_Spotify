@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import AlbumCard from "./AlbumCard";
 import "../style.css";
@@ -31,10 +32,9 @@ const MainContent = ({ setSongs, onSongSelect }) => {
     try {
       const response = await fetch(`${album.path}/info.json`);
       const albumData = await response.json();
-
-      const formattedSongs = albumData.songs.map(song => ({
+      const formattedSongs = albumData.songs.map((song) => ({
         name: song.title,
-        src: `${album.path}/${song.file}`
+        src: `${album.path}/${song.file}`,
       }));
 
       setSongs(formattedSongs);

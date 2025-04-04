@@ -40,6 +40,18 @@ body {
     position: relative;
 }
 
+.animated-gradient {
+    background: linear-gradient(270deg, #a8e063, #398815, #000000);
+    background-size: 600% 600%;
+    animation: gradientFlow 8s ease infinite;
+  }
+  
+  @keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
 
 .home ul li {
     display: flex;
